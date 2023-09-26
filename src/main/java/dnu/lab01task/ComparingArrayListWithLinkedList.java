@@ -1,4 +1,4 @@
-package dnu;
+package dnu.lab01task;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
