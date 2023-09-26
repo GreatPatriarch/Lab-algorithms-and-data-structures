@@ -58,7 +58,6 @@ public class ComparingArrayListWithLinkedList {
         var start = System.nanoTime();
         for (int number : list) {
             int temp = number;
-            temp++;
         }
         var end = System.nanoTime();
         var time = end - start;
