@@ -48,9 +48,9 @@ public class ComparingArrayListWithLinkedList {
         var end = System.nanoTime();
         var time = end - start;
         if (list instanceof ArrayList) {
-            System.out.println("ArrayList got the number on the index for  " + time + " nanoseconds");
+            System.out.println("ArrayList got the number" + result + " on the index for  " + time + " nanoseconds");
         } else {
-            System.out.println("LinkedList got the number on the index for  " + time + " nanoseconds");
+            System.out.println("LinkedList got the number" + result + " on the index for  " + time + " nanoseconds");
         }
     }
 
@@ -58,6 +58,7 @@ public class ComparingArrayListWithLinkedList {
         var start = System.nanoTime();
         for (int number : list) {
             int temp = number;
+            temp++;
         }
         var end = System.nanoTime();
         var time = end - start;
