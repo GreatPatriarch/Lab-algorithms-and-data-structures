@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Empty Project">
+    <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Lab  one is complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/factory/SorterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/factory/SortingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/BubbleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/MergeSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/QuickSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/ShellSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/Sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dnu/ComparingArrayListWithLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnu/lab01task/ComparingArrayListWithLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/lab01" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,31 +41,41 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2WF5JQU6f8pNgA8J7X5Xie99x4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/lab01",
+    "git-widget-placeholder": "feature/lab02",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Oleg/IdeaProjects/Lab-algorithms-and-data-structures/src",
+    "last_opened_file_path": "C:/Users/Oleg/IdeaProjects/Lab-algorithms-and-data-structures",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15722656",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dnu.ComparingArrayListWithLinkedList">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ComparingArrayListWithLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dnu.lab01task.ComparingArrayListWithLinkedList" />
       <module name="Lab-algorithms-and-data-structures" />
@@ -75,6 +95,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dnu.lab01task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dnu.lab02Sorting.Main" />
+      <module name="Lab-algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dnu.lab02Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dnu.ComparingArrayListWithLinkedList" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ComparingArrayListWithLinkedList" />
       </list>
     </recent_temporary>
@@ -92,7 +125,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.8-liberica-17.0.8.1-a7578c744062-8bff3000" />
+        <option value="jdk-17.0.8-liberica-17.0.8.1-94882acfe85c-fb5a7370" />
+        <option value="jdk-21-openjdk-21-94882acfe85c-d2f4893a" />
       </set>
     </attachedChunks>
   </component>
@@ -104,7 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695711581612</updated>
-      <workItem from="1695711582711" duration="4264000" />
+      <workItem from="1695711582711" duration="5962000" />
+      <workItem from="1696315416238" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="Empty Project">
       <option name="closed" value="true" />
@@ -122,7 +157,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695715656729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab  one is complete">
+      <option name="closed" value="true" />
+      <created>1695715878037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695715878037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lab  one is complete">
+      <option name="closed" value="true" />
+      <created>1695716079137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695716079137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lab  one is complete">
+      <option name="closed" value="true" />
+      <created>1695716104178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695716104178</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Empty Project" />
+    <MESSAGE value="Lab  one is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab  one is complete" />
   </component>
 </project>
