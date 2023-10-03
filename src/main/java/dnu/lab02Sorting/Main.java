@@ -63,7 +63,7 @@ public class Main {
             list4.add(random.nextInt(10000));
         }
 
-        List<Integer> cloneListForMillion = new ArrayList<>(list4);
+        List<Integer> cloneListForMillion;
         //measureAndSort(bubbleSort, cloneListForMillion, "Bubble Sort - 1000000 elements"); // Я не дождался пока оно его отсортирует
         cloneListForMillion = new ArrayList<>(list4);
         measureAndSort(mergeSort, cloneListForMillion, "Merge Sort - 1000000 elements");
