@@ -28,13 +28,13 @@ public class ComparingArrayListWithLinkedList {
         insertMiddle(linkedList,500, 60000);
     }
 
-    public static void fillList(List<Integer> list, int numberOfElements) {
-        var start = System.nanoTime();
-        for (int i = 0; i < numberOfElements; i++) {
-            list.add(i);
+    public static void fillList(List<Integer> list, int index) {
+        long start = System.nanoTime();
+        for (int i = index; i < list.size(); i++) {
+            int result = list.get(i);
         }
-        var end = System.nanoTime();
-        var time = end - start;
+        long end = System.nanoTime();
+        long time = end - start;
         if (list instanceof ArrayList) {
             System.out.println("ArrayList was filled in " + time + " nanoseconds");
         } else {
