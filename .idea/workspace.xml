@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Lab  one is complete">
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/Main.java" afterDir="false" />
+    <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Update Main">
+      <change beforePath="$PROJECT_DIR$/out/production/Lab-algorithms-and-data-structures/dnu/lab02Sorting/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab-algorithms-and-data-structures/dnu/lab02Sorting/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695716104178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Main">
+      <option name="closed" value="true" />
+      <created>1702370152319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702370152319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty Project" />
     <MESSAGE value="Lab  one is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab  one is complete" />
+    <MESSAGE value="Update Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main" />
   </component>
 </project>
