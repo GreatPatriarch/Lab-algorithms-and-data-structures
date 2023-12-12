@@ -3,12 +3,9 @@ package dnu.lab01task;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 
 public class ComparingArrayListWithLinkedList {
-    private static final Random random = new Random();
     public static void main(String[] args) {
-
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
 
@@ -30,7 +27,6 @@ public class ComparingArrayListWithLinkedList {
         insertMiddle(arrayList, 500, 60000);
         insertMiddle(linkedList,500, 60000);
     }
-
 
     public static void fillList(List<Integer> list, int numberOfElements) {
         var start = System.nanoTime();
@@ -72,45 +68,39 @@ public class ComparingArrayListWithLinkedList {
         }
     }
 
-    public static void insertFirst(List<Integer> list, int numberOfElements ) {
+    public static void insertFirst(List<Integer> list, Integer element ) {
         var start = System.nanoTime();
-        for (int i = 0; i < numberOfElements; i++) {
-            list.add(0, random.nextInt());
-        }
+        list.add(0, element);
         var end = System.nanoTime();
         var time = end - start;
         if (list instanceof ArrayList) {
-            System.out.println("Insert at the start of ArrayList took " + time + " nanoseconds");
+            System.out.println("Insert in the start of ArrayList " + time + " nanoseconds");
         } else {
-            System.out.println("Insert at the start of LinkedList took " + time + " nanoseconds");
+            System.out.println("Insert in the start of LinkedList " + time + " nanoseconds");
         }
     }
 
-    public static void insertLast(List<Integer> list, int numberOfElements ) {
+    public static void insertLast(List<Integer> list, Integer element ) {
         var start = System.nanoTime();
-        for (int i = 0; i < numberOfElements; i++) {
-            list.add(random.nextInt());
-        }
+        list.add(element);
         var end = System.nanoTime();
         var time = end - start;
         if (list instanceof ArrayList) {
-            System.out.println("Insert at the end of ArrayList took " + time + " nanoseconds");
+            System.out.println("Insert in the end of ArrayList " + time + " nanoseconds");
         } else {
-            System.out.println("Insert at the end of LinkedList took " + time + " nanoseconds");
+            System.out.println("Insert in the middle of LinkedList " + time + " nanoseconds");
         }
     }
 
-    public static void insertMiddle(List<Integer> list, int index, int numberOfElements ) {
+    public static void insertMiddle(List<Integer> list, Integer element, int index ) {
         var start = System.nanoTime();
-        for (int i = 0; i < numberOfElements; i++) {
-            list.add(index, random.nextInt());
-        }
+        list.add(index, element);
         var end = System.nanoTime();
         var time = end - start;
         if (list instanceof ArrayList) {
-            System.out.println("Insert in the middle of ArrayList took " + time + " nanoseconds");
+            System.out.println("Insert in the middle of ArrayList " + time + " nanoseconds");
         } else {
-            System.out.println("Insert in the middle of LinkedList took " + time + " nanoseconds");
+            System.out.println("Insert in the middle of LinkedList " + time + " nanoseconds");
         }
-}
+    }
 }
