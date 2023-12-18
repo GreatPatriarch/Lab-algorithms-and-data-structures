@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Lab  one is complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/FibonacciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/SumWithoutPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,30 +50,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.dnu.lab03Recursion.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/lab03",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Oleg/IdeaProjects/Lab-algorithms-and-data-structures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15722656",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.dnu.lab03Recursion.Main">
     <configuration name="ComparingArrayListWithLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dnu.lab01task.ComparingArrayListWithLinkedList" />
       <module name="Lab-algorithms-and-data-structures" />
@@ -137,7 +113,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-1571ab7be1d6-a3574fdc" />
       </set>
     </attachedChunks>
   </component>
@@ -193,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695716104178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Main">
+      <option name="closed" value="true" />
+      <created>1702370152319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702370152319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty Project" />
     <MESSAGE value="Lab  one is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab  one is complete" />
+    <MESSAGE value="Update Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main" />
   </component>
 </project>
