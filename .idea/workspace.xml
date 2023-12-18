@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="479b7017-651a-4cb7-9add-c55c2a29d563" name="Changes" comment="Lab  one is complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/factory/SorterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/factory/SortingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/BubbleSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/MergeSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/QuickSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/ShellSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab02Sorting/sorters/Sorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dnu/lab03Recursion/SumWithoutPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/lab01" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,10 +38,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2WF5JQU6f8pNgA8J7X5Xie99x4Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,10 +53,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.dnu.lab03Recursion.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/lab02",
+    "git-widget-placeholder": "feature/lab03",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Oleg/IdeaProjects/Lab-algorithms-and-data-structures",
@@ -75,7 +73,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.dnu.lab03Recursion.Main">
     <configuration name="ComparingArrayListWithLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dnu.lab01task.ComparingArrayListWithLinkedList" />
       <module name="Lab-algorithms-and-data-structures" />
@@ -115,8 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dnu.lab03Recursion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dnu.lab03Recursion.Main" />
+      <module name="Lab-algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dnu.lab03Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dnu.lab03Recursion.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ComparingArrayListWithLinkedList" />
       </list>
@@ -125,8 +137,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.8-liberica-17.0.8.1-94882acfe85c-fb5a7370" />
-        <option value="jdk-21-openjdk-21-94882acfe85c-d2f4893a" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-1571ab7be1d6-a3574fdc" />
       </set>
     </attachedChunks>
   </component>
@@ -140,6 +151,7 @@
       <updated>1695711581612</updated>
       <workItem from="1695711582711" duration="5962000" />
       <workItem from="1696315416238" duration="6865000" />
+      <workItem from="1701096776674" duration="5600000" />
     </task>
     <task id="LOCAL-00001" summary="Empty Project">
       <option name="closed" value="true" />
